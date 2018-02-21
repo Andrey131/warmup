@@ -1,5 +1,6 @@
 module.exports = function warmup(temperature) {
   var temp;
-  temp = (temperature-32)*5/9;
+  temp=Math.round(temperature*9/5+32)
   return temp;
+   
 };
